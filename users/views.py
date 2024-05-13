@@ -6,7 +6,7 @@ from users.serializers import UserSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
-    """ Контроллер для работы моделью User """
+    """ Контроллер для работы c моделью User """
 
     serializer_class = UserSerializer
     queryset = User.objects.all()
